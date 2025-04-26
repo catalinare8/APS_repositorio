@@ -74,7 +74,7 @@ pot_ruido_analog = pot_ruido_cuant * kn #
 df =  fs/N # resolución espectral
 =======
 # Datos del ADC
-B =  8 # bits (los elegimos entre todos)
+B =   # bits (los elegimos entre todos)
 Vf = # rango simétrico de +/- Vf Volts 
 q =  # paso de cuantización de q Volts
 
