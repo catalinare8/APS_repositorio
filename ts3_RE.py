@@ -191,7 +191,6 @@ bins = 10
 plt.hist(nq.flatten()/(q0), bins=bins)
 plt.plot( np.array([-1/2, -1/2, 1/2, 1/2]), np.array([0, N/bins, N/bins, 0]), '--r' )
 plt.title( 'Ruido de cuantización para {:d} bits - $\pm V_R= $ {:3.1f} V - q = {:3.3f} V'.format(B0, Vf0, q0))
-
 plt.xlabel('Pasos de cuantización (q) [V]')
 
 #%%B=8 k=1
